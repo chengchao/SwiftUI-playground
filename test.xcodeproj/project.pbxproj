@@ -15,6 +15,7 @@
 		DFFC5F7C2CDE3175009A4673 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFC5F7B2CDE3175009A4673 /* testTests.swift */; };
 		DFFC5F862CDE3175009A4673 /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFC5F852CDE3175009A4673 /* testUITests.swift */; };
 		DFFC5F882CDE3175009A4673 /* testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFC5F872CDE3175009A4673 /* testUITestsLaunchTests.swift */; };
+		DFFC5F992CDE74FC009A4673 /* MoneyInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFC5F982CDE74FC009A4673 /* MoneyInputField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		DFFC5F812CDE3175009A4673 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFFC5F852CDE3175009A4673 /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		DFFC5F872CDE3175009A4673 /* testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFFC5F982CDE74FC009A4673 /* MoneyInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyInputField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		DFFC5F672CDE3172009A4673 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				DFFC5F972CDE74E7009A4673 /* Components */,
 				DFFC5F682CDE3172009A4673 /* testApp.swift */,
 				DFFC5F6A2CDE3172009A4673 /* ContentView.swift */,
 				DFFC5F6C2CDE3172009A4673 /* Item.swift */,
@@ -128,6 +131,14 @@
 				DFFC5F872CDE3175009A4673 /* testUITestsLaunchTests.swift */,
 			);
 			path = testUITests;
+			sourceTree = "<group>";
+		};
+		DFFC5F972CDE74E7009A4673 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DFFC5F982CDE74FC009A4673 /* MoneyInputField.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFFC5F992CDE74FC009A4673 /* MoneyInputField.swift in Sources */,
 				DFFC5F6B2CDE3172009A4673 /* ContentView.swift in Sources */,
 				DFFC5F6D2CDE3172009A4673 /* Item.swift in Sources */,
 				DFFC5F692CDE3172009A4673 /* testApp.swift in Sources */,
